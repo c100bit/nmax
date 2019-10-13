@@ -2,3 +2,11 @@
 
 # Nmax
 Find top N numbers from text file
+
+```
+gem install c100bit-nmax
+```
+
+```
+cat file.txt | c100bit-nmax 10
+```
