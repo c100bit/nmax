@@ -1,1 +1,1 @@
-require 'nmax'
+require 'c100bit-nmax'
