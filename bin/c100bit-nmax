@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'nmax'
+require 'c100bit-nmax'
 
 n = ARGV.first.to_i
 ARGV.clear
