@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'nmax'
+
+n = ARGV.first.to_i
+ARGV.clear
+
+nmax = Nmax.new
+
+while str = gets
+  nmax.add_numbers_from(str)
+end
+
+p nmax.top(n)
